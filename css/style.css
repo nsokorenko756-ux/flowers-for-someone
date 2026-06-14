@@ -537,7 +537,7 @@ body {
 .flower__g-long {
   --w: 2vmin;
   --h: 6vmin;
-  --c: #fff;
+  --c: #3d8a33;
   position: absolute;
   bottom: 10vmin;
   left: -3vmin;
@@ -592,7 +592,7 @@ body {
   width: 30vmin;
   height: 50vmin;
   border-top-left-radius: 100%;
-  border-left: 2vmin solid #fff;
+  border-left: 2vmin solid #3d8a33;
   background-image: linear-gradient(to bottom, transparent, var(--dark-color) 60%);
   -webkit-mask-image: linear-gradient(to top, transparent 30%, #fff 60%);
 }
@@ -662,7 +662,7 @@ body {
 .flower__g-front__line {
   width: 0.3vmin;
   height: 20vmin;
-  background-image: linear-gradient(to top, transparent, #fff, transparent 100%);
+  background-image: linear-gradient(to top, transparent, rgba(255, 235, 18, 0.9), transparent 100%);
   position: relative;
 }
 
@@ -763,8 +763,8 @@ body {
   width: 10vmin;
   height: 10vmin;
   border-radius: 100% 0% 0% 100%/100% 100% 0% 0%;
-  box-shadow: inset 0 2px 1vmin hsla(0, 0%, 100%, 0.2);
-  background-image: linear-gradient(to bottom left, transparent, var(--dark-color)), linear-gradient(to bottom right, #fff 50%, transparent 50%, transparent);
+  box-shadow: inset 0 2px 1vmin hsla(80, 60%, 90%, 0.2);
+  background-image: linear-gradient(to bottom left, transparent, var(--dark-color)), linear-gradient(to bottom right, rgba(255, 233, 120, 0.8) 50%, transparent 50%, transparent);
   -webkit-mask-image: linear-gradient(to bottom right, #fff 50%, transparent 50%, transparent);
   mask-image: linear-gradient(to bottom right, #fff 50%, transparent 50%, transparent);
 }
@@ -798,7 +798,7 @@ body {
   width: 30vmin;
   height: 50vmin;
   border-top-left-radius: 100%;
-  border-left: 2vmin solid #fff;
+  border-left: 2vmin solid #3d8a33;
   -webkit-mask-image: linear-gradient(to top, transparent 25%, #fff 50%);
   position: relative;
   z-index: 1;
@@ -811,8 +811,8 @@ body {
   width: 10vmin;
   height: 10vmin;
   border-radius: 100% 0% 0% 100%/100% 100% 0% 0%;
-  box-shadow: inset 0 2px 1vmin hsla(0, 0%, 100%, 0.2);
-  background-image: linear-gradient(to bottom left, transparent, var(--dark-color) 98%), linear-gradient(to bottom right, #fff 45%, transparent 50%, transparent);
+  box-shadow: inset 0 2px 1vmin hsla(80, 60%, 90%, 0.2);
+  background-image: linear-gradient(to bottom left, transparent, var(--dark-color) 98%), linear-gradient(to bottom right, rgba(255, 233, 120, 0.8) 45%, transparent 50%, transparent);
   -webkit-mask-image: linear-gradient(135deg, #fff 40%, transparent 50%, transparent);
 }
 
